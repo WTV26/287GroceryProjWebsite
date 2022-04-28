@@ -1,0 +1,109 @@
+<?xml version="1.0"?>
+<users>
+  <user ID="0">
+    <username>MathieuLaBrie</username>
+    <password>$2y$10$uaZhkYX7ENr/KSA6z0r6Su0/sb7D7xPlPbhhNBQFoOUYcmPdbUb1O</password>
+    <email>mlabrie0208@gmail.com</email>
+    <address>1264 Rue du Bois&#xE9;</address>
+    <dateOfBirth>2000-01-01</dateOfBirth>
+    <isAdmin>true</isAdmin>
+  </user>
+  <user ID="2">
+    <username>Bob</username>
+    <password>$2y$10$72fn.nXVrBXgH4hQVZCVHu9LI3UvfdaxJclZAJkYIcV924sT5cDA2</password>
+    <email>fakeemailaddress1@gmail.com</email>
+    <address>1250 rue Saint-Mathieu</address>
+    <dateOfBirth>2001-08-11</dateOfBirth>
+    <isAdmin>false</isAdmin>
+  </user>
+  <user ID="3">
+    <username>John</username>
+    <password>$2y$10$.A/0boOlZUx7vpNurjoSa.N1o8t3FmtruExnA63uD9NvQqoCVASp2</password>
+    <email>fakeemailaddress2@gmail.com</email>
+    <address>1250 rue Saint-Mathieu</address>
+    <dateOfBirth>2001-02-13</dateOfBirth>
+    <isAdmin>false</isAdmin>
+  </user>
+  <user ID="4">
+    <username>Steve</username>
+    <password>$2y$10$ufhI3Feu9ctqnX/5B00CmeMESaPYw52A9F36a0eZZURS6INIh6f9.</password>
+    <email>fakeemailaddress3@gmail.com</email>
+    <address>1250 rue Saint-Mathieu</address>
+    <dateOfBirth>1999-03-22</dateOfBirth>
+    <isAdmin>false</isAdmin>
+  </user>
+  <user ID="5">
+    <username>Admin</username>
+    <password>$2y$10$XtH7kuZqB/o5JTTH9AmwNeggjYDsbJpm51mWRAxnDdwgsiwNLVUH.</password>
+    <email>admin@gmail.com</email>
+    <address>Admin Address</address>
+    <dateOfBirth>1995-02-02</dateOfBirth>
+    <isAdmin>true</isAdmin>
+  </user>
+  <user ID="6">
+    <username>Johnny</username>
+    <password>$2y$10$zItf/ZykZq3igTZlBgr/uunebmxk0EZ5zj66yUbvl/kEX2IqASlRy</password>
+    <email>fakeemailaddress4@gmail.com</email>
+    <firstname/>
+    <lastname/>
+    <address>1250 rue Saint-Mathieu</address>
+    <isAdmin>false</isAdmin>
+    <dateOfBirth>2002-02-02</dateOfBirth>
+  </user>
+  <user ID="1">
+    <username>Renato</username>
+    <password>$2y$10$4O9wzlsrtbwiPJtdSfyLcuLDkNacmFtMgjo8RHhVV6DWv.y3NENb.</password>
+    <email>renato26faria@gmail.com</email>
+    <address>2201 Rue Wellington</address>
+    <isAdmin>true</isAdmin>
+    <dateOfBirth>1999-12-26</dateOfBirth>
+  </user>
+  <user ID="7">
+    <username>Cena</username>
+    <password>$2y$10$TVNyJbaK6UKazRJVgVjg5OlhBTEMUo4tYqNzfqpV4sRHpNzxLEodi</password>
+    <email>johncena@gmail.com</email>
+    <address>1250 rue Saint-Mathieu</address>
+    <dateOfBirth>2001-02-02</dateOfBirth>
+    <isAdmin>false</isAdmin>
+  </user>
+  <user ID="9">
+    <username>FakeUser</username>
+    <password>$2y$10$Mpo/s4babLHBukjOY9SuNubkHUmeFm.xBvthN2P65IQi8Vmc1t12a</password>
+    <email>fakeemailaddress7@gmail.com</email>
+    <address>1250 rue Saint-Mathieu</address>
+    <dateOfBirth>2001-02-01</dateOfBirth>
+    <isAdmin>false</isAdmin>
+  </user>
+  <user ID="10">
+    <username>FakeUser2</username>
+    <password>$2y$10$GtA95AI3SEeJ1bexI/s/YOd6lY5avXnizWdDjSY/X27gZ4Ak/BRqK</password>
+    <email>fakeemailaddress8@gmail.com</email>
+    <address>1250 rue Saint-Mathieu</address>
+    <dateOfBirth>2001-02-01</dateOfBirth>
+    <isAdmin>false</isAdmin>
+  </user>
+  <user ID="8">
+    <username>FakeUser3</username>
+    <password>$2y$10$WvTMny5q1UeZr9WX.cmno.DVoV2OHdmf3B9LUQVYSG1zqT2xMf6nm</password>
+    <email>fakeemailaddress9@gmail.com</email>
+    <address>1250 rue Saint-Mathieu</address>
+    <dateOfBirth>0222-02-02</dateOfBirth>
+    <isAdmin>false</isAdmin>
+  </user>
+  <user ID="11">
+    <username>alois</username>
+    <password>$2y$10$x/HSten.3IFfbiZpbhnPD.JdZpNY.xZKTRi0EiXDXVCfhaRxIfVKm</password>
+    <email>ao@gmail.com</email>
+    <address>98342 Reu ta</address>
+    <dateOfBirth>2002-05-28</dateOfBirth>
+    <isAdmin>false</isAdmin>
+  </user>
+  <user ID="12">
+    <username>moshtaf</username>
+    <password>$2y$10$F/B7uGh1jp9HeUXJYWbXbeTNP3/Mr/FfkEzPOuGUZ3DrWZhuDnS1q</password>
+    <email>moshtaf@email.com</email>
+    <address>test</address>
+    <isAdmin>on</isAdmin>
+    <dateOfBirth>2022-04-23</dateOfBirth>
+  </user>
+</users>

@@ -1,0 +1,160 @@
+<?xml version="1.0"?>
+<products>
+  <aisle class="VeggiesFruits">
+    <product id="0001" class="VeggiesFruits">
+      <title>Calabrese Broccoli</title>
+      <product_ID>BL88982</product_ID>
+      <weight>225 g</weight>
+      <price>3.99</price>
+      <saleprice>3.49</saleprice>
+      <quantity>1 head</quantity>
+      <description>This Broccoli is from an old-fashioned variety that comes from Italy. It is renowned for its blue-ish green heads and its flavour.</description>
+      <imagename>../../images/broccoli.jpg</imagename>
+      <similarID1>0002</similarID1>
+      <similarID2>1002</similarID2>
+      <similarID3>0000</similarID3>
+    </product>
+    <product id="0003" class="VeggiesFruits">
+      <title>Seedless Watermelon</title>
+      <product_ID>WL42069</product_ID>
+      <weight>9.69 kg</weight>
+      <price>7.69</price>
+      <quantity>1 fruit</quantity>
+      <description>This massive and beautiful flowering plant species of the Cucurbitaceae family will explode flavour and joy in your family's mouths.</description>
+      <imagename>../../images/watermelon.jpg</imagename>
+      <similarID1>0000</similarID1>
+      <similarID2>2000</similarID2>
+      <similarID3>0001</similarID3>
+    </product>
+    <product id="0" class="VeggiesFruits">
+      <title>Annaglo Gala Apple</title>
+      <product_ID>ALI87639</product_ID>
+      <weight>180 g</weight>
+      <price>0.78</price>
+      <saleprice>0.72</saleprice>
+      <quantity>1 fruit</quantity>
+      <description>Native to New Zealand, Annaglo Gala apples are a new generation of Gala clones knownfor their bright colours and flavours.</description>
+      <imagename>../../images/apple.jpeg</imagename>
+      <similarID1>0003</similarID1>
+      <similarID2>0001</similarID2>
+      <similarID3>0002</similarID3>
+    </product>
+    <product id="2" class="VeggiesFruits">
+      <title>Yukon Gold Potatoes</title>
+      <product_ID>PG209473</product_ID>
+      <weight>2.27 kg</weight>
+      <price>4.99</price>
+      <quantity>1 bag</quantity>
+      <description>This Canadian potato is famously known for its thin, smooth, eye-free skin and yellow-tinged flesh.</description>
+      <imagename>../../images/potato.jpg</imagename>
+      <similarID1>0001</similarID1>
+      <similarID2>1002</similarID2>
+      <similarID3>1003</similarID3>
+      <saleprice/>
+    </product>
+    
+  </aisle>
+  <aisle class="DairyMeat">
+    <product id="1000" class="DairyMeat">
+      <title>Brie de Meaux</title>
+      <product_ID>FH78219</product_ID>
+      <weight>125 g</weight>
+      <price>12.99</price>
+      <saleprice>11.59</saleprice>
+      <quantity>1 wheel</quantity>
+      <description>This Brie comes from the town of Meaux in the region of Brie, France. It has a soft, delicate white rind.</description>
+      <imagename>../../images/briecheese.jpg</imagename>
+      <similarID1>1001</similarID1>
+      <similarID2>0001</similarID2>
+      <similarID3>0002</similarID3>
+    </product>
+    <product id="1001" class="DairyMeat">
+      <title>Eggs</title>
+      <product_ID>EG658008</product_ID>
+      <weight>765 g</weight>
+      <price>3.07</price>
+      <quantity>one dozen</quantity>
+      <description>These eggcelent eggs are the greatest, elistest eggs in Eggland. The spawn of our home-bred, superior race of poultry.</description>
+      <imagename>../../images/eggs-product.jpg</imagename>
+      <similarID1>1000</similarID1>
+      <similarID2>0002</similarID2>
+      <similarID3>1003</similarID3>
+    </product>
+    <product id="1002" class="DairyMeat">
+      <title>Ribeye Pork Chops</title>
+      <product_ID>PC333048</product_ID>
+      <weight>750 g</weight>
+      <price>9.69</price>
+      <quantity>6 chops</quantity>
+      <description>This juicy and delicious cut of ribeye pork chops will fill your family will well-deserved joy and taste.</description>
+      <imagename>../../images/pork-chops.jpg</imagename>
+      <similarID1>1003</similarID1>
+      <similarID2>0002</similarID2>
+      <similarID3>2000</similarID3>
+    </product>
+    <product id="1003" class="DairyMeat">
+      <title>Striploin Grilling Steak</title>
+      <product_ID>ST213878</product_ID>
+      <weight>300 g</weight>
+      <price>13.50</price>
+      <quantity>1 steak</quantity>
+      <description>This delicious cut of striploin grilling steak burns the grill like never before. Its juicy fluids will rock your world!</description>
+      <imagename>../../images/steak.jpg</imagename>
+      <similarID1>1002</similarID1>
+      <similarID2>0002</similarID2>
+      <similarID3>2000</similarID3>
+    </product>
+  </aisle>
+  <aisle class="SnacksDrinks">
+    <product id="2000" class="SnacksDrinks">
+      <title>Red Sangria</title>
+      <product_ID>SB488579</product_ID>
+      <weight>500 mL</weight>
+      <price>8.59</price>
+      <quantity>1 drink</quantity>
+      <description>Legend says that this drink is the perfect mix between flavoury sensation and alcoolized non-sensation. Bottoms up!</description>
+      <imagename>../../images/sangria.jpg</imagename>
+      <similarID1>1003</similarID1>
+      <similarID2>1002</similarID2>
+      <similarID3>2002</similarID3>
+    </product>
+    <product id="2001" class="SnacksDrinks">
+      <title>Christmas Cookies</title>
+      <product_ID>CK883740</product_ID>
+      <weight>221 g</weight>
+      <price>3.49</price>
+      <quantity>1 bag</quantity>
+      <description>These cute homemade Christmas cookies will put you in the holiday joy, any time of year!</description>
+      <imagename>../../images/cookies.jpg</imagename>
+      <similarID1>2003</similarID1>
+      <similarID2>2002</similarID2>
+      <similarID3>0000</similarID3>
+    </product>
+    <product id="2002" class="SnacksDrinks">
+      <title>Gummy Bear Candies</title>
+      <product_ID>GB118239</product_ID>
+      <weight>180 g</weight>
+      <price>4.99</price>
+      <quantity>1 bag</quantity>
+      <description>An old classic! These gummy candies are made in Quebec, hence the higher price. They are full of flavour and light!</description>
+      <imagename>../../images/candy.jpg</imagename>
+      <similarID1>0003</similarID1>
+      <similarID2>2001</similarID2>
+      <similarID3>2000</similarID3>
+    </product>
+    <product id="2003" class="SnacksDrinks">
+      <title>80% Almond Chocolate</title>
+      <product_ID>CH333439</product_ID>
+      <weight>100 g</weight>
+      <price>3.59</price>
+      <saleprice/>
+      <quantity>1 bar</quantity>
+      <description>This dark chocolate is a mix of pure bliss and sophisticated tastiness in one bar.</description>
+      <allergy>!!! Contains almonds</allergy>
+      <imagename>../../images/chocolate.jpg</imagename>
+      <similarID1>2001</similarID1>
+      <similarID2>2000</similarID2>
+      <similarID3>2002</similarID3>
+    </product>
+  </aisle>
+</products>

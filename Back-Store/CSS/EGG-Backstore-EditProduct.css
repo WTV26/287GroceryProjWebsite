@@ -1,0 +1,19 @@
+*{
+  font-family:Montserrat;
+}
+
+.submit{
+  float:right;
+}
+
+form{
+  position: relative;
+  border-color: blueviolet;
+}
+
+.card{
+  border-color:rgb(50, 40, 156);
+  border-radius: 15px;
+  box-shadow: 0px 0px 4px 6px rgba(32, 5, 56, 0.2);
+}
+

@@ -1,0 +1,45 @@
+*{
+  font-family:Montserrat;
+}
+
+.submit,.addProdBtn{
+  float:right;
+}
+.addProdBtn{
+  float:right;
+  margin-left: auto;
+}
+
+.list-group{
+  border-color: white;
+  border-radius: 0px;
+}
+
+
+form{
+  position: relative;
+  border-color: blueviolet;
+}
+
+.card{
+  border-color:rgb(50, 40, 156);
+  border-radius: 15px;
+  box-shadow: 0px 0px 4px 6px rgba(32, 5, 56, 0.2);
+}
+
+.removebtn{
+  float:right;
+  width:25px;
+  height:25px;
+  background-image: url(../images/x-square-fill.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  filter:invert(31%) sepia(73%) saturate(3538%) hue-rotate(337deg) brightness(90%) contrast(90%);
+  padding: 0%;
+  margin: 0%;
+}
+
+.total:read-only{
+  background-color: white;
+}

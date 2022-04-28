@@ -1,0 +1,449 @@
+
+/*----------------------------------------------
+by Renato Faria 40211900
+------------------------------------------------*/
+
+
+*{
+  font-family:Montserrat;
+}
+
+
+/* Scrollbar changes by Renato */
+body {
+  overflow: overlay;
+}
+::-webkit-scrollbar {
+  width: 13px;
+}
+
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey;
+  background: #ffffff88;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgb(94, 94, 94);
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgb(68, 68, 68);
+  border-radius: 10px;
+}
+
+/*NAVIGATION BAR by André
+--------------------------------*/
+.logo {
+  height:50px;
+  width:120px;
+  margin:0;
+  margin-left:10px;
+  padding:0;
+  float:left;
+}
+
+.navbar {
+  position: relative;
+  display:flex;
+  align-items:center;
+  background-color:#654CD6;
+  padding-top:0rem;
+  padding-bottom:0rem;
+  padding-left:1rem;
+  padding-right:1rem;
+  margin:0;
+}
+
+.navbar-nav {
+  justify-content: flex-end;
+  font-size:18px;
+  align-items:center;
+  color:white;
+  padding-top:0;
+}
+
+.navbar-nav .nav-link {
+  color:white;
+}
+
+.navbar-toggler {
+  border-color:white;
+  cursor:pointer;
+}
+
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='white' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.navbar-collapse {
+  justify-content: flex-end;
+}
+
+.nav-item {
+  padding-right:10px;
+  padding-left:10px;
+}
+
+.nav-link {
+  color:white;
+  height:60px;
+  display:flex;
+  align-items:center;
+}
+
+.nav-link2 #cart-button:hover {
+  height:60px;
+  display:flex;
+}
+
+.navbar-nav a:hover, .dropdown:hover {
+  background-color: rgb(80,55,100);
+  text-decoration:none;
+}
+
+.active {
+  color:#FFD854;
+  font-weight:bolder;
+}
+
+#login-button {
+  font-weight:bolder;
+}
+
+/*SEARCH BAR SECTION by André
+------------------------------*/
+#searchbar_section {
+  width:100%;
+  overflow:hidden;
+  background-color: #8578FA;
+  height:50px;
+
+  /*Centering search bar both vertically and horizontally*/
+  display:flex;
+  align-items:center;
+  justify-content:center;
+
+  /*Making the search bar stay at top of screen while scrolling*/
+  position:sticky;    /* Makes it stick*/
+  z-index: 2;         /* Makes it stay on top of other divs, except dropdown*/
+  top: -1px;          /* Sticking to the top */
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.5);
+}
+
+.searchbar {
+  background-color:#9289FA;
+  border:none;
+  color: black;
+  height:28px;
+  padding-left:10px;
+  padding-right:10px;
+  width:70%;
+  text-align:center;
+  font-size: 15px;
+  font-weight:bolder;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.3);
+}
+
+/*Placeholder text for the search bar*/
+::placeholder {
+  color:white;
+  font-weight:normal;
+  opacity:80%;
+}
+
+/*DROPDOWN NAV MENU "AISLES" by André
+----------------------------------*/
+.dropdown {
+  overflow:visible;
+}
+
+.dropdown .dropbtn {
+  border: none;
+  outline: none;
+  color: white;
+  height:60px;
+  background-color: inherit;
+  font-weight:normal;
+  margin: 0;
+  white-space:nowrap;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: rgb(60,35,80);
+  min-width: 250px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.6);
+  z-index: 3;
+  margin-left:-10px;
+}
+
+.dropdown-content a {
+  float: none;
+  color: white;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #FFD854;
+  color:black;
+}
+
+.arrow {
+  display: inline;
+  font-size:10px;
+  margin-left:7px;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+
+
+/*Shopping Cart*/
+
+.wrapper{
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.maincard{
+  border-radius: 15px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.orderSummary{
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.2), 0 1px 3px 0 rgba(0, 0, 0, 0.19);
+}
+
+.cart-pic {
+  height: 150px;
+  width: 150px;
+  border-radius:2vh;
+  object-fit: cover;
+  }
+
+.cardDate {
+  margin-right: 5px;
+}
+
+.input-group{
+ flex-wrap: nowrap;
+}
+  .cart-fig{
+    margin: auto;
+  }
+
+  .cartTable{
+    vertical-align: middle;
+    flex-wrap: wrap;
+    margin-bottom: 0;
+  }
+
+  .caption {
+    width: 50px;
+    text-align: center;
+}
+ .orderSummary p{
+  margin-bottom: 10px;
+  margin-top: -10px;
+ }
+
+ .removebtn{
+  width:25px;
+  height:25px;
+  background-image: url(../../Back-Store/images/x-square-fill.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  filter:invert(31%) sepia(73%) saturate(3538%) hue-rotate(337deg) brightness(90%) contrast(90%);
+}
+
+.cartTable tr:last-child > td{
+  border-bottom-width:0px;
+}
+.tableCard{
+  border-radius: 10px;}
+
+.totalRow{
+  width:fit-content;
+  margin:0;
+  padding:0;
+  display:flex;
+}
+
+.col.my-auto.removebtnCol {
+  margin-left: 15px;
+}
+
+.qty {
+  line-height: 30px;
+  padding: 0 2px;
+  min-width: 35px;
+  text-align: center;
+}
+
+.plus, .minus{
+  display: inline-block;
+  color: white;
+  background-color: #8578FA;
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  border-radius: 50%;
+  vertical-align: middle;
+}
+
+.minus:hover{
+  background-color: #654CD6;
+}
+.plus:hover{
+  background-color: #654CD6;
+}
+
+input{
+  border: 0;
+  width: 2%;
+}
+
+ .qty.text{
+   text-align: center;
+   vertical-align: middle;
+ }
+
+.qty.text::-webkit-outer-spin-button,
+.qty.text::-webkit-inner-spin-button {
+ -webkit-appearance: none;
+ -moz-appearance: none;
+  margin: 0;
+}
+
+.qty-row{
+  white-space: nowrap;
+}
+
+ .modal-content{
+   background-color:rgba(255, 255, 255, 0.897);
+   border-radius: 5%;
+ }
+
+ .modal-x-btn {
+   position: absolute;
+   right: 1rem;
+   margin: 0!important;
+ }
+
+@media (max-width: 500px){
+  .cart-pic {
+    width: 60px;
+    height: 60px;
+    border-radius:2vh;
+    object-fit: cover;
+  }
+
+  .plus, .minus{
+    width: 25px;
+    height: 25px;
+
+  }
+
+  .input-text.qty {
+    width: 35px;
+    height: 20px;
+    text-align: center;
+  }
+}
+
+@media (max-width: 400px){
+  .cartTable{
+    font-size: small;
+  }
+  .cart-pic {
+    width: 40px;
+    height: 40px;
+    border-radius:2vh;
+    object-fit: cover;
+  }
+  .cart-fig{
+    font-size: small;
+  }
+  .plus, .minus{
+    width: 20px;
+    height: 20px;
+  }
+
+  .input-text.qty {
+    width: 30px;
+    height: 20px;
+    text-align: center;
+  }
+}
+
+  @media (min-width: 500px) {
+    .orderSummary{
+      width: fit-content;
+      min-width: 40%;
+      margin-left: auto;
+    }
+  }
+
+/*FOOTER SECTION by André
+--------------------------------*/
+.container {
+  height: 100%;
+  width: 100%;
+  text-align: center;
+}
+
+.bg-custom-footer {
+  background-color: #8578FA;
+  color: #FFD854;
+  }
+
+  .row.py-4{
+    align-items: flex-start;
+  }
+
+  .fa, .py-2 {
+    color:#FFD854;
+  }
+
+  .py-5{
+    padding-bottom:0 !important;
+    padding-top:30px !important;
+  }
+
+  .first-col{
+    align-self: center;
+  }
+
+  .input-group ::placeholder{
+    color:rgb(60,35,85);
+  }
+
+  .bg-custom-copyright{
+    background-color:#7E6DD5;
+    padding-bottom:0 !important;
+    padding-top:0 !important;
+  }
+
+  @media (min-width: 1200px) {
+    .footerContainer{
+        max-width: 1140px;
+    }
+}
+
+.bg-custom-footer a {
+  text-decoration: none;
+}
+
+a:hover{
+  text-decoration: underline;
+}

@@ -1,0 +1,174 @@
+
+/*----------------------------------------------
+by Renato Faria 40211900
+------------------------------------------------*/
+
+
+*{
+  font-family:Montserrat;
+}
+
+.cart-pic {
+  height: 150px;
+  width: 150px;
+  border-radius:2vh;
+  object-fit: cover;
+  }
+
+.cardDate {
+  margin-right: 5px;
+}
+
+.input-group{
+ flex-wrap: nowrap;
+}
+  .cart-fig{
+    margin: auto;
+  }
+
+  .cartTable{
+    vertical-align: middle;
+    flex-wrap: wrap;
+    margin-bottom: 0;
+  }
+
+  .caption {
+    width: 50px;
+    text-align: center;
+}
+ .orderSummary p{
+  margin-bottom: 10px;
+  margin-top: -10px;
+ }
+
+ .removebtn{
+  width:25px;
+  height:25px;
+  background-image: url(../../Back-Store/images/x-square-fill.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  filter:invert(31%) sepia(73%) saturate(3538%) hue-rotate(337deg) brightness(90%) contrast(90%);
+}
+
+.totalRow{
+  width:fit-content;
+  margin:0;
+  padding:0;
+  display:flex;
+}
+
+.col.my-auto.removebtnCol {
+  margin-left: 15px;
+}
+
+.qty {
+  line-height: 30px;
+  padding: 0 2px;
+  min-width: 35px;
+  text-align: center;
+}
+
+.plus, .minus{
+  display: inline-block;
+  color: white;
+  background-color: #8578FA;
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  border-radius: 50%;
+  vertical-align: middle;
+}
+
+.minus:hover{
+  background-color: #654CD6;
+}
+.plus:hover{
+  background-color: #654CD6;
+}
+
+input{
+  border: 0;
+  width: 2%;
+}
+
+ .qty.text{
+   text-align: center;
+   vertical-align: middle;
+ }
+
+.qty.text::-webkit-outer-spin-button,
+.qty.text::-webkit-inner-spin-button {
+ -webkit-appearance: none;
+ -moz-appearance: none;
+  margin: 0;
+}
+
+.qty-row{
+  white-space: nowrap;
+}
+
+ .modal-content{
+   background-color:rgba(255, 255, 255, 0.897);
+   border-radius: 3%;
+ }
+
+ .modal-x-btn {
+   position: absolute;
+   right: 1rem;
+   margin: 0!important;
+ }
+
+@media (max-width: 500px){
+  .cart-pic {
+    width: 60px;
+    height: 60px;
+    border-radius:2vh;
+    object-fit: cover;
+  }
+
+  .plus, .minus{
+    width: 25px;
+    height: 25px;
+
+  }
+
+  .input-text.qty {
+    width: 35px;
+    height: 20px;
+    text-align: center;
+  }
+}
+
+@media (max-width: 400px){
+  .cartTable{
+    font-size: small;
+  }
+  .cart-pic {
+    width: 40px;
+    height: 40px;
+    border-radius:2vh;
+    object-fit: cover;
+  }
+  .cart-fig{
+    font-size: small;
+  }
+  .plus, .minus{
+    width: 20px;
+    height: 20px;
+  }
+
+  .input-text.qty {
+    width: 30px;
+    height: 20px;
+    text-align: center;
+  }
+}
+
+  @media (min-width: 500px) {
+    .orderSummary{
+      width: fit-content;
+      min-width: 40%;
+      margin-left: auto;
+    }
+  }
